@@ -1,1 +1,52 @@
-/*  your css code here. If applicable */
+/* Reset default margin and padding for body and HTML */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the hero container */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2; /* Background color of the hero section */
+    height: 400px; /* Set the height as desired */
+    position: relative;
+}
+
+/* Styling for the hero image */
+.hero img {
+    width: 100%; /* Make the image span the entire container width */
+    height: 100%; /* Make the image span the entire container height */
+    object-fit: cover; /* Clip and cover the image to fit the container */
+}
+
+/* Styling for the hero content */
+.hero-content {
+    text-align: center;
+    position: absolute;
+    top: 50%; /* Vertically center the content */
+    transform: translateY(-50%);
+    color: #fff; /* Text color */
+}
+
+/* Styling for the heading in the hero section */
+.hero-content h1 {
+    font-size: 36px; /* Adjust the font size as needed */
+    margin-bottom: 10px;
+}
+
+/* Styling for the paragraph in the hero section */
+.hero-content p {
+    font-size: 18px; /* Adjust the font size as needed */
+    margin-bottom: 20px;
+}
+
+/* Styling for the "Explore Now" button */
+.hero-content .explore-button {
+    padding: 10px 20px; /* Adjust the padding as needed */
+    background-color: #e60023; /* Background color for the button */
+    color: #fff; /* Text color for the button */
+    text-decoration: none; /* Remove underline for the link */
+    border-radius: 5px; /* Add some border radius for a rounded look */
+}
